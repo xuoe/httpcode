@@ -28,8 +28,8 @@ $ go install github.com/xuoe/httpcode@latest
     409  Conflict
     429  Too Many Requests
     ```
+    These are equivalent:
     ```
-    # All of these are equivalent.
     # httpcode '1*'
     # httpcode '1??'
     $ httpcode 1__
