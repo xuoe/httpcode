@@ -47,7 +47,7 @@ func main() {
 
 func statusLine(code int, includeLinks bool) string {
 	text := http.StatusText(code)
-	s, args := "%d\t%s\t", []interface{}{code, text}
+	s, args := "%d\t%s", []interface{}{code, text}
 	if includeLinks {
 		s, args = s+"\t%s", append(args, fmt.Sprintf("%s/%d", mdnURL, code))
 	}
