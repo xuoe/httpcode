@@ -42,10 +42,10 @@ $ go install github.com/xuoe/httpcode@latest
 - Include MDN links:
     ```
     $ httpcode -m 1__
-    100  Continue               https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100
-    101  Switching Protocols    https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101
-    102  Processing             https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102
-    103  Early Hints            https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103
+    100  Continue             https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/100
+    101  Switching Protocols  https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/101
+    102  Processing           https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/102
+    103  Early Hints          https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/103
     ```
 
 Note that since multiple arguments are supported, any combination of the above may be used.
